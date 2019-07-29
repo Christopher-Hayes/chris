@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | chris.js.org</title>
+  <!-- Bootstrap ftw -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Templating with handlebars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+  <!-- custom styling -->
+  <link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="https://chris.js.org"><h4 class="pt-1">chris.js.org</h4></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Blog<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="toolbox.html">Toolbox</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <header>
+      <div class="overlay container-fluid row m-0">
+        <div class="col-md-6">
+          <h1>Exploring JS</h1>
+          <h6>Lessons, Tips and Tricks</h6>
+        </div>
+        <div class="col-md-6 my-3">
+          <h1 class="page-header">Blog</h1>
+        </div>
+      </div>
+    </header>
+
+    <article>
+
+      <header class="introduction p-md-3">
+        <div class="w-80 mx-auto pt-5 bg-black container-fluid row">
+          <div class="col-md-3 py-3">
+            <h1>Hello!<br>I'm Chris Hayes</h1>
+          </div>
+          <div class="col-md-3 py-3">
+            <h4>I build apps<br>write websites<br>and automate everything</h4>
+          </div>
+          <div class="col py-3">
+            <h5>Over the years I've learned a lot from a variety of sources learning NodeJS and web development.</h5>
+            <h5>Recently, I've been trying to better organize this information for my own easy retrieval. I began in Excel, but figured I might as well make a blog dedicated to everything I learn working with JavaScript and NodeJS.</h5>
+          </div>
+        </div>
+      </header>
+
+      <div class="blog-wrapper container-fluid">
+        <div class="blog-posts mx-auto">
+          <section class="post mb-4 p-3 p-md-5">
+            <div>
+              <div class="title container-fluid row justify-content-between my-3">
+                <h2 class="">The birth of chris.js.org</h2>
+                <small class="">7/29/2019</small>
+              </div>
+              <div class="img" style="background-image:url('https://media.wired.com/photos/5cd5df1f2948ca2e63b090f0/4:3/w_2400,c_limit/01_SPoW_051119.jpg');"></div>
+              <a href="https://www.nasa.gov/feature/goddard/2019/hubble-astronomers-assemble-wide-view-of-the-evolving-universe"><div class="caption pt-2">This is the photo used in the header of this website. This is the Hubble Legacy Field. It's 16 years of 7,500 Hubble exposures compiled into a single image. This includes observations from the Hubble eXtreme Deep Field.</div></a>
+              <p class="my-4">It began with compiling an array of Excel sheets of guides that I always come back to, docs I'm constantly reopening, fixes I'm trying to find again, and code snippets that I couldn't quite remember. This Excel sheet has been super helful those type of things where you can't remember the exact syntax or procedure to do something and you need to reopen some page that has exactly what you need at that moment. This Excel sheet has been great for me, but I would like to share what I learn and the great resources I come across with the rest of the world. Developers like to make the joke that they are paid to do Google Searchs, but a good developer is not without his or her tools. So, I'd like to help others be lazy (in a good way) with anything useful I come across in relation to node or just JS in general.
+              <br>
+              I should mention I'm a huge space/astronomy fan, so of course if I can make this page space themed, I'll do it.
+              </p>
+            </div>
+
+          </section>
+        </div>
+      </div>
+
+    </article>
+  </main>
+
+
+</body>
+</html>
