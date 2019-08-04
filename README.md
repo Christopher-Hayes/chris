@@ -9,12 +9,12 @@ Bootstrap, SASS, Handlebars
 
 **TODO:**
 - [x] Scrap experimenting with Foundation and just do Bootstrap
-- [ ] [🚧] Projects page and Toolbox page (WIP)
+- [ ] 🚧 Projects page and Toolbox page (WIP)
 - [ ] Setup a CMS API for the blog, probably KeystoneJS, implement frontend with Handlebars.
-- [ ] [🚧] Continue making blog posts.
+- [ ] 🚧 Continue making blog posts.
 - [ ] Resources page maybe?
 
 **Goals:**
-- [ ] [🚧] 7 blog posts
+- [ ] 🚧 7 blog posts
 - [ ] Finish the other pages including the CMS backend
 - [ ] 25 Blog posts
