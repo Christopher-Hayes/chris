@@ -88,4 +88,25 @@ footer {
 footer small {
   color: grey; }
 
-/*# sourceMappingURL=style.css.map */
+section.post .img {
+  width: calc(100% + 96px);
+  margin-left: -48px;
+  box-shadow: inset 0 0 100px black, inset 0 0 150px black;
+  border: none;
+  border-bottom: 1px solid #233a56; }
+
+section.post .caption {
+  color: #e0e0e0;
+  margin-top: -60px;
+  margin-bottom: 60px; }
+
+.post hr {
+  background-color: #3591ff; }
+
+.til {
+  background-color: #1a2431; }
+
+.til p {
+  font-size: 14px; }
+
+/*# sourceMappingURL=blog.css.map */

@@ -12,7 +12,7 @@
   <!-- Templating with handlebars -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
   <!-- custom styling -->
-  <link rel="stylesheet" href="style.css" media="all">
+  <link rel="stylesheet" href="blog.css" media="all">
 </head>
 <body class="d-flex flex-column">
   <nav class="navbar navbar-expand-lg">
@@ -48,10 +48,10 @@
       </div>
     </header>
 
-    <article>
+    <article class="container-fluid row p-0 m-0">
 
       <header class="introduction p-md-3">
-        <div class="w-80 mx-auto pt-5 bg-black container-fluid row">
+        <div class="w-80 mx-auto py-3 bg-black container-fluid row">
           <div class="col-md-3 py-3">
             <h1>Hello!<br>I'm Chris Hayes</h1>
           </div>
@@ -65,26 +65,90 @@
         </div>
       </header>
 
-      <div class="blog-wrapper container-fluid">
-        <div class="blog-posts mx-auto">
-          <section class="post mb-4 p-3 p-md-5">
-            <div>
-              <div class="title container-fluid row justify-content-between my-3">
-                <h2 class="">The birth of chris.js.org</h2>
-                <small class="">7/29/2019</small>
+      <div class="col-md-9 mx-auto row justify-content-between">
+
+        <div class="blog-wrapper col-md-7">
+          <div class="blog-posts mx-auto">
+
+            <!-- XX/YY
+            <section class="post mb-4 p-3 p-md-5">
+              <div>
+                <div class="title container-fluid row justify-content-between my-3">
+                  <h2 class="">TTTTTT</h2>
+                  <small class="">XX/YY/2019</small>
+                </div>
+                <div class="img" style="background-image:url('MMMMMMMMMMMMMMM');"></div>
+                <div class="caption pt-2">CCCCCCCCCC</div>
+                <p class="my-4">PPPPPPPPPPPPP</p>
               </div>
-              <div class="img" style="background-image:url('https://media.wired.com/photos/5cd5df1f2948ca2e63b090f0/4:3/w_2400,c_limit/01_SPoW_051119.jpg');"></div>
-              <a href="https://www.nasa.gov/feature/goddard/2019/hubble-astronomers-assemble-wide-view-of-the-evolving-universe"><div class="caption pt-2">This is the photo used in the header of this website. This is the Hubble Legacy Field. It's 16 years of 7,500 Hubble exposures compiled into a single image. This includes observations from the Hubble eXtreme Deep Field.</div></a>
-              <p class="my-4">It began with compiling an array of Excel sheets of guides that I always come back to, docs I'm constantly reopening, fixes I'm trying to find again, and code snippets that I couldn't quite remember. This Excel sheet has been super helful those type of things where you can't remember the exact syntax or procedure to do something and you need to reopen some page that has exactly what you need at that moment. This Excel sheet has been great for me, but I would like to share what I learn and the great resources I come across with the rest of the world. Developers like to make the joke that they are paid to do Google Searchs, but a good developer is not without his or her tools. So, I'd like to help others be lazy (in a good way) with anything useful I come across in relation to node or just JS in general.
-              <br>
-              I should mention I'm a huge space/astronomy fan, so of course if I can make this page space themed, I'll do it.
-              </p>
-            </div>
+            </section>
 
-          </section>
+            <hr class="mx-5">
+            -->
+
+            <!-- 8/3 -->
+            <section class="post mb-4 p-3 p-md-5">
+              <div>
+                <div class="title container-fluid row justify-content-between my-3">
+                  <h2 classb"">What do cmd.exe, GitHub, and Ubuntu all have in common?</h2>
+                  <small class="">08/03/2019</small>
+                </div>
+                <div class="img" style="background-size:contain;background-image:url('https://store-images.s-microsoft.com/image/apps.37171.13926773940052066.5d84fa8c-f9ae-417d-9fff-80933128a5ef.ddaab023-71d0-48ad-8400-7bfcda6b7c76?w=1398&h=736&q=90&format=jpg');"></div>
+                <a href="https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot%3Aoverviewtab#"><div class="caption pt-2">A screenshot provided by Microsoft of the new Windows Terminal. This can be downloaded from the Microsoft Store.</div></a>
+                <p class="mt-4"><strong>Answer:</strong> They're all coming together with Microsoft's brand new Windows Terminal. Command Prompt's successor.
+                <p>Okay, I'm not much of a Windows developer, I avoid the thing if I can, but when you're building for clients that.. like? Windows it's a necessary evil. Apparently, this has been news for a few months, but Microsoft is working on a completely new command prompt? I guess it's just called Terminal. It's on GitHub which was really surprising to me, I guess it shouldn't be that surprising. Microsoft isn't exactly the image of open-source, but VSCode is on GitHub and they bought GitHub for heaven's sake. It shows the direction they are heading (Google). Maybe it's just the fact that Command Prompt is such a dinosaur that seems welded to the most ancient, stone-cold heart of Windows, you don't expect to come across it on GitHub.</p>
+                <p>Well, anyways that's super awesome. The repo is at https://github.com/microsoft/terminal and the terminal is available on the Microsoft store as well at https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot%3Aoverviewtab. The GitHub even shows how you can get with Chocolately?! Microsoft who even are you?</p>
+                <p>It's no secret working with the Windows system in Command Prompt or Powershell is no fun for developers. Heck Choco is like all there is for package management. As a young developer myself, Windows development outside the an IDE for Windows-oriented development is preposterous. So, I like what Microsoft is trying to do. I'm not a fan of Windows, but I want to like developing on Windows, so I hope this goes well.</p>
+                <p>Oh right! Ubuntu for Windows is a thing! Apparently, it's part of the "Windows subsystem" which from a very high level seems to be something between a VM manager like VirtualBox and a regular software application running natively on Windows. They say it's Linux running natively on Windows, which is pretty nuts. I'm absolutely in love with it because there's no discernable speed penalty that I can see and I don't have to deal with the constraints of MINGW Bash anymore.</p>
+              </div>
+            </section>
+
+            <hr class="mx-5">
+
+            <!-- 7/29 -->
+            <section class="post mb-4 p-3 p-md-5">
+              <div>
+                <div class="title container-fluid row justify-content-between my-3">
+                  <h2 class="">The birth of chris.js.org</h2>
+                  <small class="">7/29/2019</small>
+                </div>
+                <div class="img" style="background-image:url('https://media.wired.com/photos/5cd5df1f2948ca2e63b090f0/4:3/w_2400,c_limit/01_SPoW_051119.jpg');"></div>
+                <a href="https://www.nasa.gov/feature/goddard/2019/hubble-astronomers-assemble-wide-view-of-the-evolving-universe"><div class="caption pt-2">This is the photo used in the header of this website. This is the Hubble Legacy Field. It's 16 years of 7,500 Hubble exposures compiled into a single image. This includes observations from the Hubble eXtreme Deep Field.</div></a>
+                <p class="my-4">It began with compiling an array of Excel sheets of guides that I always come back to, docs I'm constantly reopening, fixes I'm trying to find again, and code snippets that I couldn't quite remember. This Excel sheet has been super helful those type of things where you can't remember the exact syntax or procedure to do something and you need to reopen some page that has exactly what you need at that moment. This Excel sheet has been great for me, but I would like to share what I learn and the great resources I come across with the rest of the world. Developers like to make the joke that they are paid to do Google Searchs, but a good developer is not without his or her tools. So, I'd like to help others be lazy (in a good way) with anything useful I come across in relation to node or just JS in general.
+                <br>
+                I should mention I'm a huge space/astronomy fan, so of course if I can make this page space themed, I'll do it.
+                </p>
+              </div>
+
+            </section>
+          </div>
         </div>
-      </div>
 
+        <div class="til col-md-4 p-5">
+          <article>
+            <header>
+              <h1>TIL</h1>
+            </header>
+
+            <!-- template
+            <section>
+              <h4>Title</h4>
+              <small>Date</small>
+              <p>Body</p>
+            </section>
+            -->
+
+            <!-- 8/3 -->
+            <section>
+              <h4><img width="17" height="20" src="https://qph.fs.quoracdn.net/main-qimg-c8781a4bb1f17e330b50cb35f851da05.webp"/> Ship It <img width="17" height="20" src="https://qph.fs.quoracdn.net/main-qimg-c8781a4bb1f17e330b50cb35f851da05.webp"/></h4>
+              <small class="text-muted">8/3/19</small>
+              <p>TIL this <img width="17" height="20" src="https://qph.fs.quoracdn.net/main-qimg-c8781a4bb1f17e330b50cb35f851da05.webp"/> is the 'ship it' squirrel. I knew about it before as a funny Slack emoji, but it turns out a member of the GitHub community adopted the squirrel with the text "Ship it" and it became the Ship It squirrel. I assume the Slack team know this squirrel as the "Ship it" squirrel, and wanted to share their favorite custom emoji with the rest of the community. I guess the idea behind why it's a squirrel is that squirrels are nimble and quick. With software you want to develop it quickly and push it out as fast as possible. GitHub members would use this emoji to say they want to push the next update.</p>
+            </section>
+
+          </article>
+        </div>
+
+      </div>
     </article>
   </main>
 
