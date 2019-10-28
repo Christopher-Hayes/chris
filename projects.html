@@ -51,8 +51,26 @@
     <!-- Page Content -->
     <div class="container">
 
-      <!-- Project One -->
-      <div class="container-fluid row mt-5">
+      <!-- Project 1 - early.games (Ur)  -->
+      <div class="container-fluid row mt-5 my-3">
+        <div class="col-md-7">
+          <a href="art/ur_1.png" rel="noopener noreferrer" target="_blank"><img class="img-fluid rounded my-3" src="art/ur_1.png" alt="Screenshot of the web app, Game of Ur"></a>
+          <a href="art/ur_2.png" rel="noopener noreferrer" target="_blank"><img class="img-fluid rounded mb-3" src="art/ur_2.png" alt="Screenshot of the web app, Game of Ur"></a>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 class="mt-5 mb-3"><a href="http://early.games" rel="noopener noreferrer" target="_blank">early.games</a></h3>
+          <h6 class="">The Game of Ur recreated online</h6>
+          <p class="mt-4 mb-5">Recreated the Game of Ur online. Used TinkerCAD to build models for the 4-sided dice. The 3d dice models are rendered using THREE.js. The app uses Bootstrap for the most part, but where Bootstrap is lacking Angular Material was used instead (such as the dialog, and the snackbar). Hosting for early.games is done with <a href="https://surge.sh">surge.sh</a> with the goal of getting to know different hosting services. As a free hosting service Surge is convenient, but Netlify has more to offer. In the future, early.games will feature additional games besides the Game of Ur. Tech used: Angular 6, THREE.js, Bootstrap, Angular Material, SASS. TinkedCAD used to build 3d dice, Inkscape used to make chip SVGs.</p>
+          <a class="btn btn-primary" href="http://early.games" rel="noopener noreferrer" target="_blank">Visit early.games</a>
+          <a class="btn btn-primary" href="https://github.com/christopher-hayes/early.games">View on GitHub</a>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Project 2 - Portal Credit scenes -->
+      <div class="container-fluid row my-3">
         <div class="col-md-7">
           <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="art/portal-1-2.png" alt="screenshot of portal 1 and 2 credits">
@@ -60,16 +78,18 @@
         </div>
         <div class="col-md-5">
           <h3>Animated Typing in JS</h3>
-          <p>As a fun side project where I tackled the task of replicating the Portal 1 and 2 credits scenes with HTML/CSS/JS. The big challenge for this project was animating the text in a way that it looked realistic and matched the speed of the lyrics. This was accomplished with animations on span tags and developing tools to calculate timing.</p>
-          <a class="btn btn-primary my-2" href="https://github.com/Christopher-Hayes/portal-1-credits">View Portal 1 Credits on GitHub</a>
-          <a class="btn btn-primary my-2" href="https://github.com/Christopher-Hayes/portal-2-credits">View Portal 2 Credits on GitHub</a>
+          <p>As a fun side project where I tackled the task of replicating the Portal 1 and 2 credits scenes with HTML/CSS/JS. The big challenge for this project was animating the text in a way that it looked realistic and matched the speed of the lyrics. This was accomplished with animations on span tags and developing tools to calculate timing. This project was built several years ago either before or around the period Chrome and FF began cracking down on auto-playing audio and before I was very good at handling asynchronous loading. It may be a little buggy now, I need to revisit this project with better design patterns and now knowing how to Chrome and FF handle auto-playing audio.</p>
+          <a class="btn btn-primary my-2" href="https://hayeschris.com/proj/Portal-1-Ending/portal-1-ending.html" rel="noopener noreferrer" target="_blank">View Portal 1 Credits</a>
+          <a class="btn btn-secondary my-2" href="https://github.com/Christopher-Hayes/portal-1-credits" rel="noopener noreferrer" target="_blank">View Portal 1 Credits GitHub</a>
+          <a class="btn btn-primary my-2" href="https://www.hayeschris.com/proj/Portal-2-Ending/portal-2-ending.html" rel="noopener noreferrer" target="_blank">View Portal 2 Credits</a>
+          <a class="btn btn-secondary my-2" href="https://github.com/Christopher-Hayes/portal-2-credits" rel="noopener noreferrer" target="_blank">View Portal 2 Credits GitHub</a>
           <small class="d-block text-muted">TODO: make a separate page for this</small>
         </div>
       </div>
 
       <hr>
 
-      <!-- cubefield -->
+      <!-- Project 2 - Cubefield -->
       <div class="row">
         <div class="col-md-7">
           <a href="#">
@@ -87,24 +107,7 @@
 
       <hr>
 
-      <!-- Project Three -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Three</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Four -->
+      <!-- Project 4 - register UNH
       <div class="row">
 
         <div class="col-md-7">
@@ -118,11 +121,11 @@
           <a class="btn btn-primary" href="#">View Project</a>
         </div>
       </div>
-      <!-- /.row -->
+      -->
 
       <hr>
 
-      <!-- Pagination -->
+      <!-- Pagination
       <ul class="pagination justify-content-center">
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Previous">
@@ -146,11 +149,9 @@
           </a>
         </li>
       </ul>
+      -->
 
     </div>
-    <!-- /.container -->
   </main>
-
-
 </body>
 </html>
